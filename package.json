@@ -1,0 +1,37 @@
+{
+  "name": "ecothon",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo-google-fonts/comfortaa": "^0.2.3",
+    "@expo/metro-runtime": "~3.1.3",
+    "@react-native-firebase/app": "^19.2.2",
+    "@react-native-firebase/auth": "^19.2.2",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/native-stack": "^6.9.26",
+    "expo": "~50.0.17",
+    "expo-app-loading": "^2.1.1",
+    "expo-barcode-scanner": "^12.9.3",
+    "expo-mail-composer": "~12.7.1",
+    "expo-status-bar": "~1.11.1",
+    "firebase": "^10.11.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.73.6",
+    "react-native-push-notification": "^8.1.1",
+    "react-native-sms": "^1.11.0",
+    "react-native-sms-android": "^0.4.1",
+    "react-native-web": "~0.19.6",
+    "expo-notifications": "~0.27.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
